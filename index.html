@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Muchas abducciones · Manual</title><meta name="description" content="Lee el manual de Muchas abducciones, página a página.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230b9488'/%3E%3Cpath d='M8 8h7v17H8zm9 0h7v17h-7' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css"><script src="viewer.js" defer></script>
+<script type="application/json" id="manual-config">{"title": "Muchas abducciones", "file": "Manual mini MUAB.pdf"}</script></head>
+<body>
+<main id="viewer">
+<header><div class="identity"><div><h1>Muchas abducciones</h1><p>Manual de juego</p></div></div><div class="actions"><a href="Manual mini MUAB.pdf" download title="Descargar manual en PDF" aria-label="Descargar manual en PDF"><svg viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg><span>Descargar PDF</span></a><button id="full" title="Pantalla completa" aria-label="Pantalla completa"><svg viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg></button></div></header>
+<section id="stage" tabindex="0" aria-label="Página del manual. Usa las flechas del teclado para navegar."><canvas id="page" hidden></canvas><p id="loading" role="status">Cargando manual…</p><div id="error" hidden>No se pudo cargar el manual. <a href="Manual mini MUAB.pdf" target="_blank" rel="noopener">Abrir PDF</a>. <button id="retry">Reintentar</button></div></section>
+<footer><div class="paging"><button id="prev" aria-label="Página anterior" title="Página anterior"><svg viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></svg></button><label for="number" class="sr">Ir a la página</label><select id="number" aria-label="Ir a la página"></select><span class="total" id="total">de —</span><button id="next" aria-label="Página siguiente" title="Página siguiente"><svg viewBox="0 0 24 24"><path d="m10 6 6 6-6 6"/></svg></button></div><div class="zoom"><button id="minus" aria-label="Reducir zoom" title="Reducir zoom">−</button><button id="fit" title="Ajustar a la pantalla" aria-label="Restablecer zoom a tamaño ajustado">100%</button><button id="plus" aria-label="Aumentar zoom" title="Aumentar zoom">+</button></div></footer>
+<div id="announcement" class="sr" role="status" aria-live="polite"></div>
+<noscript>Activa JavaScript o <a href="Manual mini MUAB.pdf">abre el manual en PDF</a>.</noscript></main>
+</body></html>
